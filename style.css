@@ -1,0 +1,123 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Pengaturan kontainer kalkulator */
+.calculator-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading utama */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* Pengaturan section kalkulator */
+.section {
+    margin-bottom: 20px;
+}
+
+/* Penataan input dan tombol */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+/* Dropdown styling */
+.dropdown {
+    margin-bottom: 10px;
+}
+
+.dropdown-toggle {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.dropdown-item {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Tombol konversi */
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button {
+    flex: 1;
+    min-width: 120px;
+}
+
+/* Hasil */
+p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Konversi suhu dropdown */
+.form-select {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Responsif untuk resolusi besar */
+@media (min-width: 1200px) {
+    .calculator-container {
+        max-width: 1000px;
+    }
+}
+
+/* Responsif untuk perangkat mobile */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+
+    input[type="number"] {
+        font-size: 0.9rem;
+    }
+}
+
+/* Gaya untuk konversi mata uang */
+.form-select {
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+}
